@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: #10375c;
+  font-family: 'Press Start 2P', monospace;
+}
+
+body {
+  width: 430px;
+  height: 740px;
+  background-color: #f4f6ff;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  height: 70px;
+  text-align: center;
+  width: 100%;
+  background-color: #f3c623;
+  padding: 5px;
+}
+
+.milk,
+.nappy,
+.remove {
+  width: 100%;
+  height: 90%;
+}
+
+button {
+  height: 100%;
+  width: 60%;
+  border-radius: 20px;
+}
+
+button:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.table {
+  width: 90%;
+  border: 2px dashed black;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.remove {
+  height: 50px;
+  margin: auto;
+}
