@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <title>Baby Tracker</title>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="buttons"></div>
+      <div class="nav-options">
+        <span class="nav-active"><a href="table.html">Home</a></span>
+        <span><a href="table.html">Table</a></span>
+      </div>
+    </div>
+    <div class="container">
+      <div class="buttons">
+        <div class="milk">
+          <button id="milkBtn">Milk</button>
+        </div>
+        <div class="nappy">
+          <button id="nappyBtn">Nappy</button>
+        </div>
+      </div>
+      <div class="count">
+        <div class="milk-count counts">0</div>
+        <div class="nappy-count counts">0</div>
+      </div>
+      <div class="delete">
+        <button id="deleteBtn">🗑️</button>
+      </div>
+      <div class="table">
+        <table id="logTable">
+          <tr class="header">
+            <th>Action</th>
+            <th>Date</th>
+            <th>Time</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <script src="assets/index.js"></script>
+  </body>
+</html>

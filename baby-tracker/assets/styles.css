@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  color: #10375c;
+  font-family: 'Press Start 2P', monospace;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  width: 162px;
+  height: 810px;
+  background-color: #10375c;
+  align-items: center;
+}
+
+.nav-options {
+  width: 100%;
+  height: 95%;
+  color: #f4f6ff;
+  text-align: center;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-active {
+  font-weight: bold;
+  background-color: rgba(244, 246, 255, 0.3);
+}
+
+.nav-options span {
+  height: 35px;
+}
+
+.nav-options a {
+  color: #f4f6ff;
+  text-decoration: none;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.nav-options span:hover {
+  width: 100%;
+  background-color: rgba(244, 246, 255, 0.3);
+}
+
+
+.container {
+  width: 918px;
+  height: 810px;
+  background-color: #f4f6ff;
+}
+
+.buttons {
+  display: flex;
+  height: 70px;
+  text-align: center;
+  width: 100%;
+  background-color: #f3c623;
+  padding: 5px;
+}
+
+.milk,
+.nappy,
+.remove {
+  width: 100%;
+  height: 90%;
+  
+}
+
+button {
+  height: 100%;
+  width: 60%;
+  border-radius: 20px;
+  font-size: 1.5em;
+  background-color: #f4f6ff;
+}
+
+button:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.table {
+  width: 90%;
+  border: 2px dashed black;
+  margin: auto;
+}
+
+
+table {
+  width: 100%;
+  text-align: center;
+  table-layout: fixed;
+}
+
+.remove {
+  height: 50px;
+  margin: auto;
+}
+
+.count {
+  width: 80%;
+  height: 70px;
+  display: flex;
+  margin: auto;
+  gap: 170px;
+}
+
+.counts {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  margin: 10px;
+  border: 1px solid black;
+  font-size: 2em;
+  color: #f4f6ff;
+  background-color: #10375c;
+  border-radius: 20px;
+}
+
+.delete {
+  display: flex;
+  justify-content: end;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.delete button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-right: 50px;
+  
+}
+
+.delete button:hover {
+  background-color: #e2e3e7;
+  transform: scale(1.1);
+}

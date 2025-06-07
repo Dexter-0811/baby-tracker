@@ -3,10 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="assets/styles.css" />
     <title>Baby Tracker</title>
   </head>
   <body>
+    <div class="nav">
+
+    </div>
     <div class="container">
       <div class="buttons">
         <div class="milk">
@@ -16,6 +19,10 @@
           <button id="nappyBtn">Nappy</button>
         </div>
       </div>
+      <div class="count">
+        <div class="milk-count counts">0</div>
+        <div class="nappy-count counts">0</div>
+      </div>
       <div class="table">
         <table id="logTable">
           <tr>
@@ -23,22 +30,12 @@
             <th>Date</th>
             <th>Time</th>
           </tr>
-          <tr class="Milk">
-            <td>🍼Milk</td>
-            <td>May 6</td>
-            <td>12:20</td>
-          </tr>
-          <tr class="Nappy">
-            <td>🩲Nappy</td>
-            <td>May 6</td>
-            <td>12:20</td>
-          </tr>
         </table>
       </div>
       <!-- <div class="remove">
         <button>DELETE</button>
       </div> -->
     </div>
-    <script src="index.js"></script>
+    <script src="assets/index.js"></script>
   </body>
 </html>
